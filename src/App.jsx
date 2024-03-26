@@ -18,6 +18,7 @@ const App = () => {
     <BrowserRouter>
       <Navbar />
       <Routes>
+        <Route exact path="/gym-lenz" element={<Home />} />
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
